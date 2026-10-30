@@ -7,7 +7,7 @@
     "name": "Moonlit",
     "url": "https://www.moonlit.tools"
   },
-  "homepage": "https://www.moonlit.tools/ai-assistants",
+  "homepage": "https://www.moonlit.tools",
   "license": "MIT",
   "keywords": [
     "seo",
@@ -16,5 +16,9 @@
     "accessibility",
     "performance"
   ],
-  "privacyPolicyUrl": "https://www.moonlit.tools/privacy"
+  "privacyPolicyUrl": "https://www.moonlit.tools/privacy",
+  "documentationUrl": "https://www.moonlit.tools/ai-assistants",
+  "supportUrl": "https://www.moonlit.tools/contact",
+  "repository": "https://github.com/ashleycrash/moonlit-claude-plugin",
+  "termsOfServiceUrl": "https://www.moonlit.tools/terms"
 }
