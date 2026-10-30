@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "moonlit": {
+      "type": "http",
+      "url": "https://mcp.moonlit.tools/mcp"
+    }
+  }
+}
