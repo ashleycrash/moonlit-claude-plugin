@@ -6,13 +6,19 @@ Ask Claude about your website's saved Moonlit results: what to work on next, why
 
 1. Add this plugin, then open its Connectors tab and connect Moonlit.
 2. Sign in to Moonlit with an emailed link or your email and password, then approve read-only access.
-3. Ask something like "What should I work on next on my website, and what evidence supports it?"
+3. Ask something like "What should I work on next on my website, and what evidence supports it?", "Write a ticket for my developer for the top fix" or "Give me my weekly check-in."
 
 Claude names the website and scan date, gives your Quick Wins and saved recommendations, and explains the linked evidence. If a scan or data source is missing, it says so.
 
 ## What It Can Do
 
-The connector has eight read-only tools: the selected website, the latest saved scan, saved recommendations, the evidence for one recommendation, Moonlit's Quick Wins, what changed since the previous comparable scan (new, resolved, improved and worsened findings, plus score movement), a fix packet for one recommendation (a developer handoff with steps and how to tell it's done), and the outcomes of your completed tasks. It can't start scans, connect data sources, change tasks or edit your account. You can disconnect it anytime in Moonlit Settings, under AI Assistants.
+The connector has eight read-only tools: the selected website, the latest saved scan, saved recommendations, the evidence for one recommendation, Moonlit's Quick Wins, what changed since the previous comparable scan (new, resolved, improved and worsened findings, plus score movement), a fix packet for one recommendation (a developer handoff with steps and how to tell it's done), and the outcomes of your completed tasks. It can't start scans, connect data sources, change tasks or edit your account.
+
+The plugin also includes three skills that tell Claude how to use these tools:
+
+- **Explain results:** name the website and scan date, start with Quick Wins, show the evidence, and say plainly when data is missing.
+- **Fix handoff:** turn one recommendation into a ticket for a developer, in GitHub, Linear or Jira style, from its fix packet. Claude drafts the ticket; it doesn't create it anywhere.
+- **Weekly check-in:** a short summary of score movement, what got worse, how your completed tasks turned out and what to do next. You can disconnect it anytime in Moonlit Settings, under AI Assistants.
 
 ## Plans
 

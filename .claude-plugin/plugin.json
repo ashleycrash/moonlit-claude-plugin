@@ -1,7 +1,7 @@
 {
   "name": "moonlit",
   "displayName": "Moonlit Tools",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Ask about your website's saved Moonlit scans, recommendations and the evidence behind them. Read-only: Claude never starts scans or changes your account.",
   "author": {
     "name": "Moonlit",
