@@ -1,4 +1,4 @@
-# Moonlit for Claude
+# Moonlit Tools for Claude
 
 Ask Claude about your website's saved Moonlit results: what to work on next, why a recommendation matters, and which findings support it.
 
